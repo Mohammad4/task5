@@ -1,12 +1,34 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <title>Javascript Task</title>
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
+  <body>
+      <section class="firstSection">
+    <div class="firstPart">
+      <label for="task">Task</label>
+      <input
+        type="text"
+        id="task"
+        class="input"
+        name="task"
+        placeholder="Placeholder"
+      /><br /><br />
 
-</body>
-
+      <label for="assignee">Assignee</label>
+      <input
+        type="text"
+        id="assignee"
+        class="input"
+        name="assignee"
+        placeholder="Placeholder"
+      />
+      <span onclick="newElement()" class="addBtn">Add</span>
+    </div>
+</section>
+<hr class="solid">
+    </body>
+  </body>
 </html>
