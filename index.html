@@ -2,6 +2,8 @@
 <html>
   <head>
     <title>Javascript Task</title>
+
+
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -26,10 +28,32 @@
         name="assignee"
         placeholder="Placeholder"
       />
-      <span onclick="newElement()" class="addBtn">Add</span>
+      <span onclick="newListItem()" class="addBtn">Add</span>
     </div>
 </section>
 <hr class="solid">
+    <div class="searchBar">
+      <i class="fa fa-search" onclick="search()"></i>
+      <input type="search" id="tsearch" name="tsearch" placeholder="Search">
+    </div>
+    <section class="secondSection">
+    <div id="toDoList">
+
+    </div>
+  </section>
+  <section class="thirdSection">
+    <div  class="countLabels">
+        <span class="span1">ToDo</span>
+        <span class="span2">Done:</span>
+    </div>
+    <div  class="countNumbers">
+      <span id="span3">0</span>
+      <span id="span4">0</span>
+  </div>
+  <br><br><br>
+  </section>
+
+  <script src="main.js"></script>
+
     </body>
-  </body>
 </html>

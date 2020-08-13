@@ -10,9 +10,13 @@
           align-items: center;
 }
 
+.firstSection .addBtn:hover {
+  background-color: #bbb;
+}
+
 .firstSection .firstPart {
   display: inline-block;
-  margin-top: 75px;
+  margin-top: 60px;
   margin-bottom: 33px;
 }
 
@@ -30,9 +34,9 @@
 
 .firstSection .firstPart span {
   display: inline;
-  border: 1px solid #5A5A5A;
+  border: 1px solid #5a5a5a;
   border-radius: 2px;
-  background-color: #EBEBEB;
+  background-color: #ebebeb;
   text-align: center;
   margin-left: 24px;
   padding-top: 6px;
@@ -43,8 +47,103 @@
 
 hr.solid {
   border-top: 3px solid #000;
-  width: 40%;
-  margin-right: auto;
-  margin-left: auto;
+  width: 31%;
+}
+
+.searchBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  border: 5px solid #c9c9ce;
+  width: 30%;
+  height: 28px;
+}
+
+.searchBar .fa-search {
+  margin: 5px;
+  color: #c9c9ce;
+}
+
+.searchBar #tsearch {
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.secondSection {
+  margin-top: 20px;
+}
+
+.secondSection #toDoList {
+  display: block;
+}
+
+.secondSection #toDoList div {
+  position: relative;
+  border: 1px solid #000;
+  margin: 0 auto;
+  width: 30.5%;
+  height: 95px;
+  margin-bottom: 25px;
+}
+
+.secondSection #toDoList div p {
+  display: inline-block;
+  margin: 15px;
+  width: 50%;
+}
+
+.secondSection #toDoList div .fa-trash {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  margin: 15px;
+}
+
+.secondSection #toDoList div .fa-check-circle {
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  margin: 15px;
+}
+
+.thirdSection {
+  display: block;
+  padding-bottom: 50px;
+}
+
+.thirdSection .countLabels {
+  position: relative;
+  margin: 0 auto;
+  width: 30.5%;
+}
+
+.thirdSection .countLabels .span1 {
+  position: absolute;
+  right: 120px;
+}
+
+.thirdSection .countLabels .span2 {
+  position: absolute;
+  right: 10px;
+}
+
+.thirdSection .countNumbers {
+  position: relative;
+  margin: 0 auto;
+  width: 30.5%;
+}
+
+.thirdSection .countNumbers #span3 {
+  position: absolute;
+  right: 135px;
+  top: 50px;
+}
+
+.thirdSection .countNumbers #span4 {
+  position: absolute;
+  top: 50px;
+  right: 25px;
 }
 /*# sourceMappingURL=style.css.map */
